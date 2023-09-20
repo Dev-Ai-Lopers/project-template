@@ -1,7 +1,6 @@
 FROM nvidia/cuda:11.7.1-cudnn8-devel-ubuntu20.04
 
 WORKDIR /workspace/
-COPY . /workspace/
 
 ENV DEBIAN_FRONTEND nointeractive
 ENV LC_ALL C.UTF-8
